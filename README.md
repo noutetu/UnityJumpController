@@ -11,13 +11,7 @@ Unityでキャラクターにジャンプ動作を追加できるライブラリ
 - **10種類のプリセット**: 用途に合わせたジャンプパターンを選択可能
 - **簡単設定**: インスペクターでプリセットを選ぶだけ
 - **カスタマイズ可能**: ジャンプの高さ、速度、滞空時間を細かく調整可能
-
-### プリセット例
-- **Standard Balanced**: 標準的なジャンプ
-- **Light And Snappy**: 軽快でキビキビした動き
-- **Rhythm Game Optimized**: リズムゲーム向けの拍に合わせやすいジャンプ
-- **Taiko Style**: 太鼓の達人風のタメのあるジャンプ
-
+- 
 ## 2. ダウンロード手順
 
 ### GitHubからダウンロード
@@ -64,7 +58,6 @@ Unityでキャラクターにジャンプ動作を追加できるライブラリ
 
 このライブラリを適用する最小のコードは以下です：
 
-```csharp
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -73,7 +66,6 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
-        // 同じGameObjectについているJumpControllerを取得
         jumpController = GetComponent<JumpController>();
         if (jumpController == null)
         {
@@ -83,7 +75,6 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        // 入力に応じてJumpControllerにジャンプを委譲
         if (Input.GetMouseButtonDown(0))
         {
             jumpController.TryJump();

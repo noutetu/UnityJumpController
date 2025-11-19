@@ -67,4 +67,4 @@ public class Player : MonoBehaviour
 ![画面収録 2025-11-20 0.04.09.gif](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3826467/151a322c-bb0a-4f03-b5dd-be6d1b09e8bf.gif)
 
 ### ⑨インスペクターでジャンプの挙動を調整
-<img width="878" height="431" alt="スクリーンショット 2025-11-20 1 01 56" src="https://github.com/user-attachments/assets/58f8aaf9-1ba2-4051-b510-67f734bf254f" />
+<img width="883" height="414" alt="スクリーンショット 2025-11-20 1 03 02" src="https://github.com/user-attachments/assets/331dbaf0-28ac-4bfb-b674-a1c6a1291ad2" />

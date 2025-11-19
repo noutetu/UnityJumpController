@@ -115,17 +115,3 @@ Inspector > Rigidbody2D > Body Type > Kinematic
 - **2D専用**: 現在は2D環境での使用を想定しています
 
 ---
-
-## プリセット一覧
-
-| プリセット名 | 特徴 |
-|------------|------|
-| Standard Balanced | 標準的でバランスの良いジャンプ |
-| Light And Snappy | 軽くて素早い動き |
-| Floaty Long | ふわっとした浮遊感 |
-| Slow Rise Fast Fall | ゆっくり上昇、速く落下 |
-| High And Fast | 高く素早いジャンプ |
-| Rhythm Game Optimized | リズムゲーム向け |
-| その他 | 太鼓風、ステップジャンプなど |
-
-詳細なパラメータは `JumpPresetData.cs` を参照してください。

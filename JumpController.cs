@@ -7,10 +7,13 @@ public class JumpController : MonoBehaviour
     [Header("プリセット選択")]
     [SerializeField] private JumpPreset preset = JumpPreset.StandardBalanced;
 
-    [Header("ジャンプパラメータ")]
+    [Header("ジャンプの高さ")]
     [SerializeField] private float jumpHeight = 4f;
+    [Header("頂点までの時間")]
     [SerializeField] private float timeToApex = 0.35f;
+    [Header("滞空時間")]
     [SerializeField] private float airTime = 0.15f;
+    [Header("落下時間")]
     [SerializeField] private float fallTime = 0.35f;
 
     [Space(10)]

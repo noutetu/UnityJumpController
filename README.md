@@ -12,12 +12,6 @@ Unityでキャラクターにジャンプ動作を追加できるライブラリ
 - **簡単設定**: インスペクターでプリセットを選ぶだけ
 - **カスタマイズ可能**: ジャンプの高さ、速度、滞空時間を細かく調整可能
 
-### プリセット例
-- **Standard Balanced**: 標準的なジャンプ
-- **Light And Snappy**: 軽快でキビキビした動き
-- **Rhythm Game Optimized**: リズムゲーム向けの拍に合わせやすいジャンプ
-- **Taiko Style**: 太鼓の達人風のタメのあるジャンプ
-
 ## 2. ダウンロード手順
 
 ### GitHubからダウンロード
@@ -121,17 +115,3 @@ Inspector > Rigidbody2D > Body Type > Kinematic
 - **2D専用**: 現在は2D環境での使用を想定しています
 
 ---
-
-## プリセット一覧
-
-| プリセット名 | 特徴 |
-|------------|------|
-| Standard Balanced | 標準的でバランスの良いジャンプ |
-| Light And Snappy | 軽くて素早い動き |
-| Floaty Long | ふわっとした浮遊感 |
-| Slow Rise Fast Fall | ゆっくり上昇、速く落下 |
-| High And Fast | 高く素早いジャンプ |
-| Rhythm Game Optimized | リズムゲーム向け |
-| その他 | 太鼓風、ステップジャンプなど |
-
-詳細なパラメータは `JumpPresetData.cs` を参照してください。
